@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    font-size: 40px;
+}
+body {
+    background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );
+    font-family: 'Roboto';
+}
+#container {
+   
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px double black;
+  }
+  #buttons {
+      display: flex;
+      justify-content: center;
+      margin: 5mm;
+  }
+  .btn {
+      margin-right: 5mm;
+      margin-left: 5mm;
+  }
+  .box {
+      float: left;
+  }
+  h1 {
+    transition: all 1s ease-out;
+  }
+  h1:hover {
+      color: rgb(255, 0, 0);
+  }
